@@ -1,0 +1,96 @@
+div#main {
+    position: relative;
+    margin: 10px;
+    width: 764px;
+    height: 94%;
+    background-color: green;
+}
+
+div#main-box {
+    position: relative;
+    top: 285px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 206px;
+    height: 206px;
+}
+div#dora-hai {
+    height: 48px;
+    width: 132px;
+    top: 72px;
+    left: 37px;
+    position: absolute;
+}
+
+div#my-kawa {
+    position: absolute;
+    width: 198px;
+    bottom: 60px;
+    left: 37%;
+    height: 225px;
+}
+div#my-hand {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div#simo-kawa {
+    position: absolute;
+    width: 198px;
+    right: 67px;
+    top: 35%;
+    height: 226px;
+    transform: rotate(-90deg);
+}
+div#simo-hand {
+    position: absolute;
+    bottom: 360px;
+    left: 352px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    transform: rotate(-90deg);
+}
+
+div#toi-kawa {
+    position: absolute;
+    width: 198px;
+    top: 58px;
+    left: 37%;
+    height: 228px;
+    transform: rotate(-180deg);
+}
+div#toi-hand {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    transform: rotate(-180deg);
+}
+
+div#kami-kawa {
+    position: absolute;
+    width: 198px;
+    left: 66px;
+    top: 35%;
+    height: 228px;
+    transform: rotate(90deg);
+}
+div#kami-hand {
+    position: absolute;
+    bottom: 360px;
+    right: 352px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    transform: rotate(90deg);
+}
